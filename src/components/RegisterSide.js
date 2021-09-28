@@ -24,6 +24,8 @@ const RegisterSide = () => {
         <Input type="Post Code " placeholder="Post Code  " />
         <Input type="Bank BSB" placeholder="Bank BSB " />
         <Input type="Bank Account" placeholder="Bank Account " />
+        <Input type="SuperFund" placeholder="Superfund Company " />
+        <Input type="Super Account" placeholder=" Super Account Number" />
         <button>Sign Up</button>
       </Form>
       <div>

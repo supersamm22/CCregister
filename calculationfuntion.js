@@ -126,7 +126,7 @@ function test() {
 
    *
    * */
-  var TAX_RES_2014_15 = [
+  var TAX_RATES = [
     { from: 0, rate: 0.0, base: 0 },
     { from: 18201, rate: 0.19, base: 0 },
     { from: 37001, rate: 0.325, base: 3572 },
@@ -145,12 +145,12 @@ function test() {
 
   /* Create a tax object. */
   var tax = new TaxCalc({
-    TAX: TAX_RES_2014_15,
+    TAX: TAX_RATES,
 
     superAnnRate: 9.25,
     superAnnTax: 15,
   });
-  /* Sample income array. */
+  /* Sample income array. Change amount here to test and see reult. */
   var income = [110000];
 
   var i, rep;
